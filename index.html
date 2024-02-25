@@ -1,0 +1,72 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="src/styles.css" />
+    <link rel="script" href="src/index.js" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300&family=Poppins:wght@300&family=Urbanist&display=swap"
+        rel="stylesheet">
+
+<body>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+    <div class="container">
+        <a href="https://www.shecodes.io/" target="_blank">
+            <img class="logo" src="https://www.weather.shecodes.io/images/logo.png" target="_blank">
+        </a>
+        <form class="form" action="/search">
+            <input class="search-bar" type="text" placeholder="Enter a city.." id="country-input" required />
+            <input class="search-button" type="button" value="Search">
+        </form>
+
+
+        <div class="country" id="displaycountry">Singapore</div>
+        <div class="weather-info">
+            <span class="weather-date" id="current-day-time">Saturday 6:08pm,</span> moderate rain
+            <br />
+            Humidity: <span class="weather-wind-value">90%</span>, Wind: <span class="weather-wind-value">11km/h</span>
+        </div>
+        <div class="current-temp">
+            <span class="current-weather-icon">🌧️</span> <span class="today-temp" id="todaytemp">27°C</span>
+        </div>
+        <br />
+        <ul>
+            <li>Sun <br />
+                <span class="weather-icon">🌧️</span>
+                <span class="temp-high">27°<span class="temp-low">25°</span></span>
+            </li>
+            <li>Mon <br />
+                <span class="weather-icon">🌥️</span>
+                <span class="temp-high">31°<span class="temp-low">26°</span></span>
+            </li>
+            <li>Tue <br />
+                <span class="weather-icon">🌧️</span>
+                <span class="temp-high">29°<span class="temp-low">24°</span></span>
+            </li>
+            <li>Wed <br />
+                <span class="weather-icon">🌤️</span>
+                <span class="temp-high">31°<span class="temp-low">27°</span></span>
+            </li>
+            <li>Thu <br />
+                <span class="weather-icon">🌦️</span>
+                <span class="temp-high">30°<span class="temp-low">26°</span></span>
+            </li>
+
+        </ul>
+        <hr>
+        <footer>
+            This project was coded by <a href="https://www.google.com" target="_blank">Ng Siang Joo</a> and is <a
+                href="https://www.google.com" target="_blank">open-sourced on GitHub</a> and <a
+                href="https://www.google.com" target="_blank">hosted
+                on
+                Netlify.</a>
+        </footer>
+    </div>
+    <script src="src/index.js"></script>
+</body>
+
+</html>
