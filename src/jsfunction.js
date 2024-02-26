@@ -23,8 +23,6 @@ function displayTemperature(response) {
   todayTemperature.innerHTML = `${currentTemperature}°C`;
 }
 
-//
-
 let now = new Date();
 
 let nowDayTime = document.querySelector("#current-day-time");
